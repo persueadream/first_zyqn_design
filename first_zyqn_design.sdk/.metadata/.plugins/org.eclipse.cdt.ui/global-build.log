@@ -1,0 +1,30 @@
+21:38:50 **** Incremental Build of configuration Debug for project Marquee ****
+make all 
+make: Nothing to be done for `all'.
+21:46:20 **** Incremental Build of configuration Debug for project Marquee ****
+make all 
+make: Nothing to be done for `all'.
+21:46:36 **** Incremental Build of configuration Debug for project Marquee ****
+make all 
+make: Nothing to be done for `all'.
+21:48:22 **** Incremental Build of configuration Debug for project Marquee ****
+make all 
+make: Nothing to be done for `all'.
+21:56:06 **** Auto Build of configuration Debug for project Marquee ****
+make all 
+'Building file: ../src/Marquee.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Marquee.o" -I../../Marquee_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Marquee.d" -MT"src/Marquee.d" -o "src/Marquee.o" "../src/Marquee.c"
+'Finished building: ../src/Marquee.c'
+' '
+'Building target: Marquee.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Marquee_bsp/ps7_cortexa9_0/lib -o "Marquee.elf"  ./src/Marquee.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Marquee.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Marquee.elf  |tee "Marquee.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21680	   1168	  22612	  45460	   b194	Marquee.elf
+'Finished building: Marquee.elf.size'
+' '

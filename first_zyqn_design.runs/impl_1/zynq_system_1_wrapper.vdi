@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Aug 31 21:18:43 2017
+# Process ID: 7320
+# Current directory: G:/Embedded/ZYNQ7000/Program/Zed/first_zyqn_design/first_zyqn_design.runs/impl_1
+# Command line: vivado.exe -log zynq_system_1_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source zynq_system_1_wrapper.tcl -notrace
+# Log file: G:/Embedded/ZYNQ7000/Program/Zed/first_zyqn_design/first_zyqn_design.runs/impl_1/zynq_system_1_wrapper.vdi
+# Journal file: G:/Embedded/ZYNQ7000/Program/Zed/first_zyqn_design/first_zyqn_design.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source zynq_system_1_wrapper.tcl -notrace
+Command: open_checkpoint zynq_system_1_wrapper_routed.dcp
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [G:/Embedded/ZYNQ7000/Program/Zed/first_zyqn_design/first_zyqn_design.runs/impl_1/.Xil/Vivado-7320-/dcp/zynq_system_1_wrapper_early.xdc]
+Finished Parsing XDC File [G:/Embedded/ZYNQ7000/Program/Zed/first_zyqn_design/first_zyqn_design.runs/impl_1/.Xil/Vivado-7320-/dcp/zynq_system_1_wrapper_early.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.346 . Memory (MB): peak = 586.082 ; gain = 0.055
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.347 . Memory (MB): peak = 586.082 ; gain = 0.055
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2015.4 (64-bit) build 1412921
+open_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 586.082 ; gain = 398.000
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./zynq_system_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 929.637 ; gain = 343.555
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 31 21:19:18 2017...
